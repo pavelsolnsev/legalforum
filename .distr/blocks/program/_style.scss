@@ -1,0 +1,66 @@
+.program {
+	padding: 127px 0 139px 0;
+	background: url(../img/program/bg_program.png) no-repeat 50% 0;
+
+	&__title {
+		margin-bottom: 75px;
+	}
+
+	&__teble {
+		width: 100%;
+		border: 2px solid #150035;
+		background: #fff;
+
+		&-col-1 {
+			width: 1%;
+		}
+
+		&-col-2 {
+			width: 5%;
+		}
+
+		&-col-3 {
+			width: 20%;
+		}		
+
+		&-col-4 {
+			width: 10%;
+		}
+
+		&-col-5 {
+			width: 15%;
+		}
+
+		&-col-6 {
+			width: 20%;
+		}		
+
+		TH {
+			font-family:"ProximaNova";
+			padding: 20px 10px;
+			border: 2px solid #150035;
+			background: $yellow;
+			font-weight: 700;
+			font-size: 30px;
+			line-height: 147%;
+			text-align: center;
+		}
+
+		TD {
+			font-family:"ProximaNova";
+			padding: 12px 10px;
+			border: 2px solid #150035;
+			font-weight: 400;
+			//font-size: 23px;
+			font-size: 18px;
+			line-height: 113%;
+			text-align: center;
+		}
+	}
+
+	&__mobile {
+		display: none;
+	}
+}
+
+

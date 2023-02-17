@@ -1,0 +1,95 @@
+.header {
+
+    @media (max-width: 1199px) {
+
+        &__logo {
+            
+            &-img {
+                max-height: 24px;
+                margin-right: 10px;
+            }
+        }
+
+        &__phone {
+            padding-right: 20px;
+    
+            &-number {
+                font-size: 21px;
+            }
+        }
+
+        &__buttonbox {
+            max-width: 191px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        &__logo {
+            &-img {
+                &_lemchik {
+                    width: auto;
+                }
+            }
+        }
+        
+        &__phone{
+            &-number{
+                font-size: 16px;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        &__phone {
+            padding-right: 0;
+    
+            &-number {
+                display: block;
+                width: 31px;
+                height: 31px;
+                border-radius: 50%;
+                background: url(../img/header/phone_icon.png) no-repeat 0 0;
+                box-shadow: 0px 10.4391px 20.8782px rgba(255, 176, 0, 0.6);
+                text-indent: -10000px;
+            }
+        }
+
+        &__buttonbox {
+            position: fixed;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            z-index: 11;
+            width: auto;
+            max-width: none;
+        }
+
+        &__button {
+            max-width: none;
+            height: 60px;
+        }
+    }
+
+    @media (max-width: 575px) {
+
+        position: absolute;
+        min-height: 66px;
+
+        .page-scrolled & {
+            min-height: 66px;
+            background: none;
+        }
+
+        &__logo {
+            
+            &-img {
+                max-height: 18px;
+                margin-right: 10px;
+            }
+        }
+
+    }
+}
+   
+   

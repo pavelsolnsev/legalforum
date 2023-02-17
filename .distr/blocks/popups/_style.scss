@@ -1,0 +1,50 @@
+.popup-partner {
+    max-width: 710px;
+    width: 100%;
+    @media (max-width: 380px) {
+        padding: 25px;
+    }
+    &__block {
+        display: flex;
+        flex-direction: column;
+        .title {
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 32px;
+            color: #150035;
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 22px;
+            color: #150035;
+            margin-bottom: 10px;
+            a {
+                color: #150035;
+            }
+        }
+        .text {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 17px;
+            color: #150035;
+            margin-bottom: 20px;
+        }
+        .links {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 27px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.18em;
+            text-decoration-line: underline;
+            text-transform: uppercase;
+            color: #ED1C24;
+        }
+    }
+}
+.fancybox-slide--html .fancybox-close-small {
+    width: 70px;
+    height: 70px;
+}

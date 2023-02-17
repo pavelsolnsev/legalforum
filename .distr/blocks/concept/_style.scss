@@ -1,0 +1,53 @@
+.concept {
+    position: relative;
+    padding: 10px 0 84px 0;
+
+    & .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__figure {
+        position: absolute;
+        top: 140px;
+        right: 0;
+        width: 40%;
+
+        & IMG {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__text {
+        font-size: 49px;
+        line-height: 137%;
+    }
+
+    &__subtitle {
+        padding: 50px 0 60px 0;
+
+        &-logo {
+            margin-bottom: 10px;
+        }
+
+        &-text {
+            font-size: 55.6956px;
+            line-height: 137%;
+        }
+    }
+
+    &__description {
+        font-family:"ProximaNova";
+        font-weight: normal;
+        max-width: 80%;
+        font-size: 27px;
+        line-height: 156%;
+        margin-bottom: 70px;
+    }
+}
+
+

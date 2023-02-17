@@ -1,0 +1,119 @@
+.main {
+
+    @media (max-width: 1199px) {
+
+        &_top {
+            padding: 50px 0 80px 0;
+            margin-top: 80px
+        }
+
+        &__date  {
+            margin-bottom: 17px;
+        }
+
+        &__info {
+            margin-bottom: 70px;
+        }
+
+        &__figure {
+            top: 10%;
+            right: -28%;
+            width: 73%;
+        }
+    }
+
+    @media (max-width: 991px) {
+        
+    }
+
+    @media (max-width: 767px) {
+
+        &__main_theme {
+            font-size: 20px;
+            line-height: 20px;;
+            margin-bottom: 20px;
+        }
+
+        &_top {
+            padding: 50px 0 60px 0;
+        }
+
+        &__date  {
+            font-size: 16px;
+            margin-bottom: 20px;
+    
+            &-separator {
+                font-size: 22px;
+            }
+        }
+
+        &__description {
+            font-size: 14.7812px;
+            margin-bottom: 20px;
+        }
+
+        &__info {
+            font-size: 20px;
+            margin-bottom: 30px;
+    
+            &-separator {
+                font-size: 26px;
+            }
+        }
+
+        &__figure {
+            position: static;
+            top: 0;
+            right: 0;
+            width: 90%;
+            margin: 0 0 -20% auto;
+        }
+        
+    }
+
+    @media (max-width: 575px) {
+
+        &_top {
+            margin-top: 50px
+        }
+
+        &__date  {
+            margin-bottom: 20px;
+
+            SPAN {
+                display: block;
+            }
+    
+            &-separator {
+                display: none !important;
+            }
+        }
+
+        &__title {
+            font-size: 16.8242px;
+            margin-bottom: 10px;
+        }
+
+        &__logo {
+            margin-bottom: 18px;
+        }
+
+        &__description {
+            margin-bottom: 10px;
+        }
+
+        &__info {
+            margin-bottom: 30px;
+    
+            SPAN {
+                display: block;
+            }
+    
+            &-separator {
+                display: none !important;
+            }
+        }
+        
+    }
+}
+   

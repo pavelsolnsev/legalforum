@@ -1,0 +1,52 @@
+.form {
+
+    @media (max-width: 1199px) {
+
+        &__items {
+            flex-flow: column;
+        }
+
+        &__input {
+            width: 100%;
+        }
+
+        &_horisontal {
+
+            .form__title {
+                font-size: 60px;
+                margin-bottom: 47px;
+            }
+
+            .form__item {
+                min-height: 100px;
+                margin: 0;
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+
+    }
+
+    @media (max-width: 767px) {
+
+        &_vertical {
+            max-width:297px; 
+            margin: 0 auto;
+        }
+
+        &_horisontal {
+
+            .form__title {
+                font-size: 28px;
+                margin-bottom: 20px;
+            }
+
+            .form__item {
+                min-height: 91px;
+            }
+
+            .form__button {font-size: 16px;}
+        }
+    }
+}
