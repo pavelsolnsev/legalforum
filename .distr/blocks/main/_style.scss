@@ -1,0 +1,94 @@
+.main {
+    position: relative;
+    
+    &_top {
+        padding: 50px 0 125px 0;
+        margin-top: 90px
+    }
+
+    &_bottom {
+        padding: 50px 0 125px 0;
+    }
+
+    & .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__main_theme {
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 40px;
+    }
+
+    &__date  {
+        font-size: 26.5833px;
+        line-height: 154%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 44px;
+
+        &-separator {
+            display: none;
+            .version-online &, .version-offline & {
+                display: contents;
+                font-weight: 400;
+                font-size: 32px;
+                color: $yellow;
+            }
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 28.0403px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    &__logo {
+        margin-bottom: 36px;
+    }
+
+    &__description {
+        max-width: 480px;
+        font-size: 23.181px;
+        line-height: 154%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &__info {
+        font-weight: 700;
+        font-size: 32.5px;
+        line-height: 154%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        margin-bottom: 117px;
+
+        &-separator {
+            font-weight: 400;
+            font-size: 40px;
+            color: $yellow;
+        }
+    }
+
+    &__figure {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 51%;
+
+        & IMG {
+            width: 100%;
+        }
+    }
+}
+
+

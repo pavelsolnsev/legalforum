@@ -1,0 +1,46 @@
+.location {
+    padding: 157px 0 130px 0;
+
+    &__title {
+        margin-bottom: 120px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1296px;
+        padding: 0 50px 0 76px;
+        border: 4.80925px solid #FFB000;
+        margin: 0 auto;
+    }
+
+    &__info {
+        width: 55%;
+        padding: 56px 50px 42px 0;
+    }
+
+    &__type {
+        font-weight: 500;
+        font-size: 37px;
+        line-height: 153%;
+        margin-bottom: 18px;
+    }
+
+    &__name {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 98%;
+        margin-bottom: 30px;
+    }
+
+    &__description {
+        font-size: 27px;
+        line-height: 167%;
+    }
+
+    &__photo {
+        margin: -52px 0;
+    }
+}
+
+

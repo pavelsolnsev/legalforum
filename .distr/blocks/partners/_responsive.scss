@@ -1,0 +1,56 @@
+.partners {
+
+    @media (max-width: 1199px) {
+
+        &__left {
+            padding: 64px 40px 55px 40px;
+        }
+
+        &__title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media (max-width: 991px) {
+
+        
+    }
+
+    @media (max-width: 767px) {
+
+        &__box {
+            padding: 55px 30px 37px 30px;
+        }
+
+        &__logo {
+            max-width: 213px;
+            margin-bottom: 20px;
+        }
+
+        &__title {
+            font-size: 22px;
+            line-height: 118%;
+            margin-bottom: 9px;
+        }
+
+        &__subtitle {
+            font-size: 14px;
+            line-height: 157%;
+        }
+
+        &__list {
+            min-width: 193px;
+    
+            &-item {
+                padding: 7px 0;
+                font-size: 12px;
+                line-height: 164%;
+            }
+        }
+
+        &__button {
+            height: 60px;
+        }
+    }
+}

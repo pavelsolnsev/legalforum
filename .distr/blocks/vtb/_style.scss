@@ -1,0 +1,62 @@
+.vtb {
+
+    &__box {
+        max-width: 638px;
+        padding: 42px 30px 44px 61px;
+        background: #fff;
+        border: 2px solid #001B62;
+        box-shadow: 0px 0px 30px rgba(171, 179, 196, 0.25), 0px 1.95731px 1.95731px rgba(68, 99, 158, 0.25);
+        margin: 0 auto;
+    }
+
+    &__logo {
+        margin-bottom: 34px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 125%;
+        margin-bottom: 16px;
+
+        &-part {
+            color: $yellow;
+        }
+    }
+
+    &__subtitle {
+        font-weight: 600;
+        font-size: 22.27px;
+        line-height: 163%;
+        color: $yellow;
+    }
+
+    &__list {
+        display: inline-block;
+        min-width: 370px;
+        list-style: none;
+        padding: 0 0 20px 0;
+
+        &-item {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(0, 67, 187, 0.14);
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 129%;
+
+            &:last-child {
+                border: 0;
+            }
+
+            &-part {
+                font-weight: 700;
+                color: $yellow;
+            }
+        }
+    }
+
+    &__button {
+        max-width: 370px;
+        height: 80px;
+    }
+}

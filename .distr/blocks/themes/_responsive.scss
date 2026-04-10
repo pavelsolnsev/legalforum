@@ -1,0 +1,63 @@
+.themes {
+
+    @media (max-width: 1199px) {
+
+        padding: 0 0 70px 0;
+
+        &__block {
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-bottom: 25px;
+        }
+
+        .swiper-nav {
+            position: static;
+        }
+
+        &-swiper {
+
+            .swiper-item {
+
+                &__img {
+                    max-height: 91px;
+                }
+
+                &__text {
+                    font-size: 20.6903px;
+                    line-height: 118%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+
+    }
+
+    @media (max-width: 767px) {
+
+        padding: 0 0 50px 0;
+
+        &__block {
+            margin-bottom: 40px;
+        }
+
+        &__title {
+            margin-bottom: 5px;
+        }
+
+        &-swiper {
+
+            &__text {
+                font-size: 18px;
+                line-height: 135%;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        
+    }
+}

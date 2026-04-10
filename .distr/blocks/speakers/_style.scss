@@ -1,0 +1,129 @@
+.speakers {
+	padding: 103px 0 163px 0;
+	background: url(../img/speakers/bg_speakers.png) no-repeat 50% 258px,
+				linear-gradient(0deg, #FFB000, #FFB000);
+	
+	&__title {
+		margin-bottom: 60px;
+	}
+
+	&__content {
+		margin-bottom: 20px;
+	}
+
+	&__item {
+		display: flex; 
+		flex-direction: column;
+		min-height: 100%;
+		padding-bottom: 27px;
+		text-align: center;
+		margin: 0 auto;
+
+		&-box {
+			position: relative;
+			flex-grow: 1;
+			padding-bottom: 63px; 
+			background: #fff;
+			border: 2px solid #150035;
+			box-shadow: 0px 0px 30px rgba(171, 179, 196, 0.25), 0px 1.95731px 3px rgba(68, 99, 158, 0.25);
+		}
+	}
+	
+	&__info {
+		flex-grow: 1; 
+		min-height: 222px;
+		padding: 38px 15px 5px 15px;
+	}
+
+	&__name {
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 129%;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		margin-bottom: 13px;
+	}
+
+	&__post {
+		font-weight: 700;
+		font-size: 11px;
+		line-height: 182%;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+
+	&__photo {
+		margin-bottom: 12px;
+	}
+
+	&__theme {
+		padding: 20px 15px;
+		background: linear-gradient(90deg, rgba(239, 239, 239, 0) 10.51%, #EFEFEF 48.26%, rgba(239, 239, 239, 0) 90.15%);
+		font-weight: 700;
+		font-size: 11px;
+		line-height: 164%;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+
+	&__detail {
+		position: absolute;
+		bottom: 20px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: #2D0096;
+
+		&-link {
+			border-bottom: 1px solid #2D0096;
+			font-weight: 700;
+			font-size: 12px;
+			line-height: 100%;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+		}
+	}
+
+	&__more {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100%;
+		padding: 36px 0 50px 0;
+		background: #fff;
+		border: 2px solid #150035;
+		box-shadow: 0px 0px 30px rgba(171, 179, 196, 0.25), 0px 1.95731px 3px rgba(68, 99, 158, 0.25);
+		margin-top: 16px;
+
+		&-title {
+			font-weight: 700;
+			font-size: 48px;
+		}
+
+		&-subtitle {
+			font-size: 22px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+
+		&-btn {
+			width: 246px;
+		}
+	}
+
+	
+
+	&__col {
+
+		&[data-more-hidden] {
+			padding-bottom: 0;
+
+			.speakers__item {
+				position: absolute;
+				top: 9999px;
+				left: -9999px;
+				opacity: 0;
+			}
+		}
+	}	
+}
